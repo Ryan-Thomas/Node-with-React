@@ -7,4 +7,5 @@ app.get("/", (req, res) => {
 });
 
 const PORT = process.env.port || 5000;
+console.log("Binding to port: " + PORT);
 app.listen(PORT);
